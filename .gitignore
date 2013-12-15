@@ -6,4 +6,4 @@
 !Gruntfile.coffee
 !package.json
 src/client/modules/*
-!.gitignore
+
