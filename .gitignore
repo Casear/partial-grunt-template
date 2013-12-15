@@ -1,9 +1,9 @@
 *
-!src
+!src/**/*
 !.bowerrc
 !bower.json
 !config.rb
 !Gruntfile.coffee
 !package.json
-!src/client/modules/*
+src/client/modules/*
 !.gitignore
