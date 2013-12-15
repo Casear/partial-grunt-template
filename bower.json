@@ -1,0 +1,11 @@
+{
+    "name": "SlideNow",
+    "version": "0.0.1",
+    "dependencies": {
+        "spectrum":"1.2.0",
+        "semantic-ui":"*",
+        "highlightjs": "7.5.0",
+        "keymaster": "1.6.1",
+        "MathJax":"*"
+    }
+}
