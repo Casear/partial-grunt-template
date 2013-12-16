@@ -1,9 +1,3 @@
-*
-!src/*/*
-!.bowerrc
-!bower.json
-!config.rb
-!Gruntfile.coffee
-!package.json
-src/client/modules/*
+node_modules
+src/client/modules
 
