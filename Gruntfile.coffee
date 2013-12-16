@@ -15,6 +15,13 @@ module.exports = (grunt) ->
                "src/client/stylesheets/sass/*/*.scss",
               ]
         tasks:["sass:dist"]
+    bowerful : 
+      pack:
+        store: './src/client/modules/'
+        dest: './src/client/modules/'
+        
+
+          
     sass:
       dist:
         options:
@@ -42,6 +49,7 @@ module.exports = (grunt) ->
         dest:"./public/javascripts"
         ext:".js"
   }
+  grunt.loadNpmTasks('grunt-bowerful');
   grunt.loadNpmTasks('grunt-livescript');
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-contrib-sass');

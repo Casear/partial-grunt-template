@@ -13,7 +13,8 @@
     "grunt-livescript": "~0.5.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-sass": "~0.6.0",
-    "grunt-contrib-compass": "~0.7.0"
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-bowerful": "https://github.com/gyllstromk/grunt-bowerful/tarball/develop"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
